@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    font-size: 60px;
+    padding-left: 50px;
+    width: 400px;
+    height: 300px;
+   border-image: auto;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+    }
+
+img{  
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
