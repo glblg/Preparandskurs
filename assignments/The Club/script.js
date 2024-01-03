@@ -1,15 +1,17 @@
-let vip = true
+// ålder om ålder >= 18  men vip om det är true så skippar vi
+// om vip inte sant så fråga åldern
 
-let age = 17
+let vip = false;
 
-if (age >= 18) alert ("access granted")
-else (age < 18) alert ("access denied")
+let age = 17;
+if (vip) 
+    alert("welcome in my best customer :)");
+else {
+    alert("you are a regular customer!!");
+    if (age >= 18)
+        alert("access granted");
+    else
+        alert("access denied");
+}
 
-let 18 = true
-
-if vip alert ("welcome in my best customer :)")
-
-
-
-
-
+//let 18 = true

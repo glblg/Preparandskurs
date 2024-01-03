@@ -1,17 +1,17 @@
-h1{
+h1 {
     color: red;
     font-size: 60px;
     padding-left: 50px;
     width: 400px;
     height: 300px;
-   border-image: auto;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    border-image: auto;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    /*  alt + ahift + f   -> formatering av doc */
+}
 
-    }
-
-img{  
-    border-color: red;
+img {
+    border: 2px solid red;
+ /* border-color: red;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
 }
