@@ -1,0 +1,21 @@
+h1 {  
+   /* 
+   color:red;
+    margin-left: 100px;
+    */
+}
+
+h2 {
+    color: #ff0000;
+    font-style: italic;
+}
+
+button {
+    border-color: blue;
+    border-width:  5px;
+}
+
+p{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
