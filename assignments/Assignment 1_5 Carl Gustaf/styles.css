@@ -10,7 +10,8 @@ body{
     text-align: center;
     margin-right: 150px;
     background-color: #9e0000;
-    padding:15px
+    padding:15px;
+    width:100%;
 }
 
 .links{
