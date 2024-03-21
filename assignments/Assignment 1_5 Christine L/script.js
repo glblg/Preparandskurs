@@ -5,7 +5,7 @@ if (vip == true) {
   alert("Welcome in my best VIP customer :)");
 } else if (age >= 18) {
   alert("Access granted");
-} else age <= 18;
+} else //age <= 18; behövs ej else betyder annas & annars på större än 18 äs mindre än 18
 {
   alert("Access denied");
 }
