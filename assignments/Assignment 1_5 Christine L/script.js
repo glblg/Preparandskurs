@@ -1,11 +1,21 @@
-let age = 17;
-let vip = true;
 
-if (vip == true) {
+
+function chriss(){
+
+
+  let vipvalue = document.getElementById("vip").checked;
+  let age = document.getElementById("age");
+  let agevalue = age.value
+  
+
+  if (vipvalue == true) {
   alert("Welcome in my best VIP customer :)");
-} else if (age >= 18) {
+} else if (agevalue >= 18) {
   alert("Access granted");
-} else //age <= 18; behövs ej else betyder annas & annars på större än 18 äs mindre än 18
-{
+} else {
   alert("Access denied");
+}
+if (age >=18){
+    alert(true)
+}
 }
