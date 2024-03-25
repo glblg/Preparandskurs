@@ -12,18 +12,18 @@ if (age < 18) {
         let vipCode = prompt("Enter your VIP code:");
 
         //  VIP koden för att komma in är 12345
-        if (vipCode === "12345") {
+        if (vipCode === "12345") 
             // om koden är godkänd, welcome in my best vip customer
             alert("Welcome in my best vip customer");
-        } else {
+         else 
             // Ej godkänd kod, neka tillgång
             alert("Invalid VIP code. Access denied.");
-        }
-    } else {
+        
+    } else 
         //har kunden ingen VIP, neka åtkomst
         alert("Access denied.");
-    }
-} else {
+    
+} else 
     // If the user is 18 years old or older, welcome them to the site
     alert("Welcome in my best VIP customer!");
-}
+
