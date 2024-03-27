@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>assigment 3</title>
-    <script src="UlfJansson+Helpfunctions.js" defer: true></script>
+    <script defer src="UlfJansson+Helpfunctions.js" defer: true></script>
 </head>
 <body>
-    <label for="inputText">Skriv lite text:</label>
-    <input type="text" id="inputText">
-    <button onclick="showPrompt()">Show Prompt</button>
+    <label for="inputText">skriv in filtrerings karaktär:</label>
+    <input id="filterCharDOM" type="text" id="inputText">
+    <button onclick="showPrompt()">filter text</button>
+    
+    <script defer>
 
-    <!--
-    <script>
         function showPrompt()
         {
+            console.log(document.getElementById("filterCharDOM").value);
+            const char=document.getElementById("filterCharDOM").value
             const userInput = prompt("Skriv in massa text");
-            console.log("tredje bokstaven är: ", userInput);
+            console.log("tredje bokstaven är: ", alriksCharRemove(char,userInput));
         }
-    </script>
--->
+        </script>
+
+    <p id="outputText">...</p>
 
 </body>
 </html>
