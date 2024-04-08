@@ -1,0 +1,23 @@
+h1 {  
+  /* color: red;
+    font-style: italic; */
+}
+
+#unik{ /*specifika unika tagg */
+    color: rgb(0, 38, 255);
+}
+
+.grupp1{ /* flera taggar*/
+    color: rgb(216, 10, 185);
+}
+
+h2 {
+    padding: 10px;
+    margin: 10px;
+    font-weight: normal;
+    background-color: lightgreen;
+}
+
+p{  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
